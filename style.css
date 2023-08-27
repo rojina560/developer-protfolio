@@ -133,3 +133,31 @@ nav a{
     box-shadow:5px 5px 10px gray ;
     margin-top:30px ;
 }
+/* resume section  */
+.resume-container{
+    display: flex;
+    gap: 50px;
+}.resume-item-title{
+    color:#474747 ;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-descriptin,.resume-item-institute{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px 0;
+
+}
+
+.resume-item-institute{
+    margin-bottom: 15px;
+
+}
+.download-cv{
+    text-align: center;
+    margin: 50px 0;
+}
+
+
