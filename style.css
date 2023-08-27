@@ -27,6 +27,7 @@ body{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    padding: 50px 0;
 }
 .banner-description ,.section-description{
     padding:0 15px 15px 0;
@@ -38,6 +39,7 @@ body{
 main{
     max-width: 1140px;
     margin: 70px auto;
+    
 }
 /* navigation styles code  */
 
@@ -114,4 +116,20 @@ nav a{
 }
 .about-info{
     text-align: center;
+}
+/* what i do section start  */
+#what-i-do{
+    padding: 0px 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+.skills{
+    width: 250px;
+    padding: 20px;
+    box-shadow:5px 5px 10px gray ;
+    margin-top:30px ;
 }
